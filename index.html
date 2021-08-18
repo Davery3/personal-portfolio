@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title -->
+    <title>Portfolio</title>
+    <!-- CSS / Google Fonts / Bootstrap -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+  <div class="intro-div">
+    <div class="intro-heading">
+    <h1>David Avery</h1>
+    <br>
+    <h1>Web Developer</h1>
+    <a href="#about-id"><button>Learn More About Me</button></a>
+    </div>
+  </div>
+  <div id="about-id" class="about-me-container">
+  <div class="container">
+  <div class="row">
+    <div class="col about-me">
+      <img class="about-me" src="./assets/profilepic.jpg" alt="Me">
+    </div>
+    <div class="col about-info">
+      <h2>About Me</h2>
+      <br>
+      <p>I am looking to transfer into the web development industry and am knowledgeable in Javascript, React, Node.js, PostgreSQL, and of course HTML and CSS.</p>
+      <p>When I am not working on Github projects, I love traveling, socializing with friends, and learning new languages (I am currently learning German).</p>
+      <a href="./assets/david-avery-resume.pdf" target="_blank"><button>View Resume</button></a>
+      <a href="#projects"><button class="project-button">View Projects</button></a>
+    </div>
+    </div>
+    </div>
+  </div>
+  <div id="projects" class="project-container">
+    <h1 class="section-titles">Projects</h1>
+    <!-- Start Project Section -->
+    <div class="container">
+  <div class="row">
+    <div class="col-4 project-info">
+      <h2>Face Recognition App</h2>
+      <p>This web app was built using React.js, Node.js, and PostgreSQL and allows the user to register and sign in to the app. Once the user signs in they can submit an image url and an embedded AI will detect whether or not there is a human face in the image.</p>
+      <a href="https://face-recognition-ai-app.herokuapp.com/" target="_blank"><button>See Live</button></a>
+      <a href="https://github.com/Davery3/face-app-front-end/" target="_blank"><button class="source-code">Source Code</button></a>
+    </div>
+    <div class="col-8 project-images">
+      <a class="project-images" href="https://face-recognition-ai-app.herokuapp.com/" target="_blank">
+      <div class="project-images" data-tilt data-tilt-perspective="10000"><img class="project-images" src="./assets/face-recognition-app.jpg" alt="project image"></div>
+      </a>
+    </div>
+  </div>
+</div>
+  <!-- End Project Section -->
+  <!-- Start Project Section -->
+<div class="container">
+<div class="row">
+<div class="col-4 project-info">
+  <h2>Pong Game</h2>
+  <p>This web game was built using pure Javascript and is a recreation of the classic pong game.</p>
+  <a href="https://davery3.github.io/pong-game/" target="_blank"><button >See Live</button></a>
+  <a href="https://github.com/Davery3/pong-game" target="_blank"><button class="source-code">Source Code</button></a>
+</div>
+<div class="col-8 project-images">
+  <a class="project-images" href="https://davery3.github.io/pong-game/" target="_blank">
+  <div class="project-images" data-tilt data-tilt-perspective="10000"><img class="project-images" src="./assets/pong.jpg" alt="project image"></div>
+</a>
+</div>
+</div>
+</div>
+<!-- End Project Section -->
+<!-- Start Project Section -->
+<div class="container">
+<div class="row">
+<div class="col-4 project-info">
+<h2>Shopping List</h2>
+<p>This web app was built using pure Javascript and allows the user to enter items on their shopping list, and them either delete the item or cross the item out as they wish.</p>
+<a href="https://davery3.github.io/shoppinglistapp/" target="_blank"><button >See Live</button></a>
+<a href="https://github.com/Davery3/shoppinglistapp" target="_blank"><button class="source-code">Source Code</button></a>
+</div>
+<div class="col-8 project-images">
+  <a class="project-images" href="https://davery3.github.io/shoppinglistapp/" target="_blank">
+<div class="project-images" data-tilt data-tilt-perspective="10000"><img class="project-images" src="./assets/shoppinglistapp.jpg" alt="project image"></div>
+</a>
+</div>
+</div>
+</div>
+<!-- End Project Section -->
+  </div>
+  <div class="contact-container">
+    <h1 class="section-titles">Contact</h1>
+    <br>
+    <h3>Send me an email or reach out to me through my social media accounts below</h2>
+    <a href="mailto:davery700@gmail.com"><button>Email</button></a>
+  </div>
+  <div class="social-media-container">
+    <div class="social-links">
+          <a href="https://www.linkedin.com/in/davery3/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a href="https://github.com/Davery3" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+        <hr>
+  </div>
+  <script type="module" src="script.js"></script>
+  <script type="module" src="vanilla-tilt.js"></script>
+  </body>
+</html>
